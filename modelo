@@ -1,0 +1,832 @@
+<html>
+    <body>
+        <title>oi</title>
+        <form id="Alunos_add" method="post" action="#" accept-charset="utf-8">
+            <noscript>
+                <h1 style="color: #F00; text-align: center;">Para realizar o cadastro no MyEnglishOnline<br/>você precisa estar com o JavaScript habilitado.</h1>
+            </noscript>
+            <p>
+                <input type="hidden" name="Aluno[instituicoes_id]" value="1" id="AlunoInstituicoesId" />
+            </p>
+            <p>
+                <input type="hidden" name="Aluno[enviado]" value="0" id="AlunoEnviado" />
+            </p>
+            <p>
+                <input type="hidden" name="Aluno[matricula]" value="123456" id="AlunoMatricula" />
+            </p>
+            <h4><img src=""> Termo de Compromisso</h4>
+            <p class="termo"><strong>Para ter acesso ao Curso My English Online (MEO), o usuário compromete-se a:</strong></p>
+            <br />
+            <p class="termo">1- Declarar a condição de candidato ao curso MEO, conforme opções abaixo:</p>
+            <p class="termo">
+                <input id="Aluno_concordoABC_a" value="a" type="radio" name="Aluno[concordoABC]" />            <em>a) Ser aluno de graduação em instituição pública de ensino superior.</em></p>
+            <p class="termo">
+                <input id="Aluno_concordoABC_b" value="b" type="radio" name="Aluno[concordoABC]" />            <em>b) Ser aluno de graduação em instituição privada de ensino superior e ter obtido o mínimo de 600 pontos no Exame Nacional do Ensino Médio – ENEM, em exames realizados a partir de 2009.</em></p>
+            <p class="termo">
+                <input id="Aluno_concordoABC_c" value="c" type="radio" name="Aluno[concordoABC]" />            <em>c) Ser aluno em programa de pós-graduação <strong>stricto sensu</strong> recomendado pela CAPES.</em>
+            </p>
+            <br />
+            <p class="termo">2- Outros compromissos:</p>
+            <p class="termo">
+                <input value="1" type="checkbox" name="Aluno[concordoD]" id="Aluno_concordoD" />            <em>d) Cumprir estritamente todas as obrigações constantes no presente Termo de Compromisso, bem como os dispositivos legais aplicáveis que vierem a ser adotados durante a execução do curso MEO;</em>
+            </p>
+            <p class="termo">
+                <input value="1" type="checkbox" name="Aluno[concordoE]" id="Aluno_concordoE" />            <em>e) Manter seu cadastro sempre atualizado, uma vez que as notificações sobre o desempenho no curso MEO serão enviadas por e-mail;</em></p>
+            <p class="termo">
+                <input value="1" type="checkbox" name="Aluno[concordoF]" id="Aluno_concordoF" />            <em>f) Ter acesso a computador compatível com as <a target="_blank" href="http://www.myenglishonline.com.br/saiba-mais/requisitos">especificações técnicas mínimas</a> constantes no site;</em></p>
+            <p class="termo">
+                <input value="1" type="checkbox" name="Aluno[concordoG]" id="Aluno_concordoG" />            <em>g) Tomar todas as medidas necessárias para garantir a segurança no acesso ao curso MEO, bem como o seu uso apropriado, uma vez que a senha é pessoal e intransferível;</em></p>
+            <p class="termo">
+                <input value="1" type="checkbox" name="Aluno[concordoH]" id="Aluno_concordoH" />            <em>h) Não disponibilizar e/ou divulgar a terceiros o login e a senha recebidos;</em></p>
+            <p class="termo">
+                <input value="1" type="checkbox" name="Aluno[concordoI]" id="Aluno_concordoI" />            <em>i) Iniciar o curso MEO no prazo máximo de  quinze dias após o recebimento da senha;</em></p>
+            <p class="termo">
+                <input value="1" type="checkbox" name="Aluno[concordoJ]" id="Aluno_concordoJ" />            <em>j) Submeter-se ao teste de nivelamento antes de iniciar o curso MEO, respeitando o prazo máximo de quinze dias;</em></p>
+            <p class="termo">
+                <input value="1" type="checkbox" name="Aluno[concordoK]" id="Aluno_concordoK" />            <em>k) Empenhar-se em realizar os estudos durante, pelo menos, três horas semanais, assistir as aulas e fazer os exercícios e atividades propostos;</em></p>
+            <p class="termo">
+                <input value="1" type="checkbox" name="Aluno[concordoL]" id="Aluno_concordoL" />            <em>l) Realizar os testes de progresso a cada sessenta dias e a prova final  para mudança de nível, no prazo máximo de 180 dias;</em></p>
+            <p class="termo">
+                <input value="1" type="checkbox" name="Aluno[concordoM]" id="Aluno_concordoM" />            <em>m) Obter desempenho mínimo igual ou superior a 6, nos níveis de 1 a 4 para ser habilitado para o próximo nível;</em></p>
+            <p class="termo">
+                <input value="1" type="checkbox" name="Aluno[concordoN]" id="Aluno_concordoN" />            <em>n) Reportar à CAPES qualquer mau funcionamento da plataforma do MEO;</em></p>
+            <p class="termo">
+                <input value="1" type="checkbox" name="Aluno[concordoO]" id="Aluno_concordoO" />            <em>Declaro que li e concordo com as cláusulas do presente Termo de Compromisso e estou ciente de que o não cumprimento de qualquer uma das condições apresentadas poderá acarretar o cancelamento da minha senha de acesso ao <em>Curso My English Online</em></em>.</p>
+            <p class="termo">
+                <input value="1" type="checkbox" name="Aluno[concordoP]" id="Aluno_concordoP" />            <em>Declaro para todos os fins que as informações aqui prestadas são verídicas, estando sujeito às penas previstas no artigo 299 do <a target="_blank" href="http://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm">Código Penal Brasileiro</a>.</em></p>
+            </td>
+            <br />
+            <br />
+            <h4 align="center">DADOS PESSOAIS</h4>
+            <div class="alerta"> AVISO: os dados cadastrados não poderão ser alterados. Preencha corretamente. </div>
+            <p>
+                <label for="AlunoNome">Nome</label>
+                <input name="Aluno[nome]" type="text" class="campo-contato" maxlength="200" id="AlunoNome" value="" />
+            </p>
+            <p>
+                <label for="AlunoSobrenome">Sobrenome</label>
+                <input name="Aluno[sobrenome]" type="text" class="campo-contato" maxlength="100" id="AlunoSobrenome" value="" />
+            </p>
+            <p class="left">
+                <label for="AlunoSexo">Sexo</label>
+                <select class="select-contato" id="AlunoSexo" name="Aluno[sexo]">
+    <option value="">Selecione</option>
+    <option value="m">Masculino</option>
+    <option value="f">Feminino</option>
+    </select>        </p>
+            <p class="left">
+                <label for="AlunoRaca">A sua cor ou raça é:</label>
+                <select class="select-contato" id="AlunoRaca" name="Aluno[raca]">
+    <option value="">Selecione</option>
+    <option value="a">Amarelo(a)</option>
+    <option value="b">Branco(a)</option>
+    <option value="i">Indígena</option>
+    <option value="p">Pardo(a)</option>
+    <option value="n">Preto(a)</option>
+    <option value="v">Não desejo declarar</option>
+    </select>        </p>
+            <p class="full">
+                <label for="AlunoEmail">E-mail</label>
+                <input name="Aluno[email]" type="text" class="campo-contato" maxlength="150" id="AlunoEmail" value="" />
+            </p>
+            <p>
+                <label for="AlunoConfirmarEmail">Confirmar e-mail</label>
+                <input name="Aluno[confirmarEmail]" type="text" class="campo-contato" maxlength="150" id="AlunoConfirmarEmail" onpaste="return false;" />
+            </p>
+            <p class="left">
+                <label for="AlunoCpf">CPF</label>
+                <input name="Aluno[cpf]" type="text" class="campo-contato" maxlength="20" id="AlunoCpf" value="" />
+            </p>
+            <p class="right">
+                <label for="AlunoNascimento">Data de Nascimento</label>
+                <input name="Aluno[nascimento]" type="text" class="campo-contato" maxlength="20" id="AlunoNascimento" value="" />
+            </p>
+            <p class="full left-full">
+                <label for="AlunoCep">CEP</label>
+                <input name="Aluno[cep]" type="text" class="campo-contato" maxlength="255" id="AlunoCep" value="" />
+            </p>
+            <p class="full">
+                <label for="AlunoEndereco">Endereço</label>
+                <input name="Aluno[endereco]" type="text" class="campo-contato" maxlength="255" id="AlunoEndereco" value="" />
+            </p>
+            <p class="left">
+                <label for="AlunoNumero">Número</label>
+                <input name="Aluno[numero]" type="text" class="campo-contato" maxlength="255" id="AlunoNumero" value="" />
+            </p>
+            <p class="right">
+                <label for="AlunoComplemento">Complemento</label>
+                <input type="text" name="Aluno[complemento]" class="campo-contato" maxlength="255" id="AlunoComplemento" value="" />
+            </p>
+            <p class="left-full left">
+                <label for="AlunoBairro">Bairro</label>
+                <input type="text" name="Aluno[bairro]" class="campo-contato" maxlength="255" id="AlunoBairro" value="" />
+            </p>
+            <p class="right">
+                <label for="AlunoCidade">Cidade</label>
+                <input name="Aluno[cidade]" type="text" class="campo-contato" maxlength="255" id="AlunoCidade" value="" />
+            </p>
+            <p class="full">
+                <label for="AlunoEstado">Estado</label>
+                <select class="select-contato" id="AlunoEstado" name="Aluno[estado]">
+    <option value="">Selecione uma UF</option>
+    <option value="1">AC</option>
+    <option value="2">AL</option>
+    <option value="3">AM</option>
+    <option value="4">AP</option>
+    <option value="5">BA</option>
+    <option value="6">CE</option>
+    <option value="7">DF</option>
+    <option value="8">ES</option>
+    <option value="9">GO</option>
+    <option value="10">MA</option>
+    <option value="11">MG</option>
+    <option value="12">MS</option>
+    <option value="13">MT</option>
+    <option value="14">PA</option>
+    <option value="15">PB</option>
+    <option value="16">PE</option>
+    <option value="17">PI</option>
+    <option value="18">PR</option>
+    <option value="19">RJ</option>
+    <option value="20">RN</option>
+    <option value="21">RO</option>
+    <option value="22">RR</option>
+    <option value="23">RS</option>
+    <option value="24">SC</option>
+    <option value="25">SE</option>
+    <option value="26">SP</option>
+    <option value="27">TO</option>
+    </select>        </p>
+            <p class="left">
+                <label for="AlunoTelefone">Telefone</label>
+                <input name="Aluno[telefone]" type="text" class="campo-contato" maxlength="15" id="AlunoTelefone" value="" />
+            </p>
+            <p class="right">
+                <label for="AlunoCelular">Celular</label>
+                <input name="Aluno[celular]" type="text" class="campo-contato" maxlength="16" id="AlunoCelular" value="" />
+            </p>
+            <p class="full"></p>
+            <br />
+            <h4 align="center">INFORMAÇÕES ACADÊMICAS</h4>
+            <br />
+            <p>
+                <label for="AlunoEscolaridade">Nível de ensino que você está cursando</label>
+                <select class="select-contato" id="AlunoEscolaridade" name="Aluno[escolaridades_id]">
+    <option value="">Escolha um nível</option>
+    <option value="4">Doutorado</option>
+    <option value="1">Graduação</option>
+    <option value="2">Mestrado Acadêmico</option>
+    <option value="3">Mestrado Profissional</option>
+    </select>        </p>
+            <p id="tipos-container" style="display: none;">
+                <label for="AlunoTipos">Status Jurídico da IES</label>
+                <select class="select-contato" id="AlunosTipos" name="Aluno[tipos_id]">
+    <option value="">Selecione um Status Jurídico</option>
+    <option value="3">Privada</option>
+    <option value="2">Pública</option>
+    </select>        </p>
+            <p>
+                <label for="AlunoEstadoId">UF</label>
+                <select id="AlunoEstadoId" class="select-contato" name="Aluno[estados_id]">
+    <option value="">Selecione uma UF</option>
+    <option value="1">AC</option>
+    <option value="2">AL</option>
+    <option value="3">AM</option>
+    <option value="4">AP</option>
+    <option value="5">BA</option>
+    <option value="6">CE</option>
+    <option value="7">DF</option>
+    <option value="8">ES</option>
+    <option value="9">GO</option>
+    <option value="10">MA</option>
+    <option value="11">MG</option>
+    <option value="12">MS</option>
+    <option value="13">MT</option>
+    <option value="14">PA</option>
+    <option value="15">PB</option>
+    <option value="16">PE</option>
+    <option value="17">PI</option>
+    <option value="18">PR</option>
+    <option value="19">RJ</option>
+    <option value="20">RN</option>
+    <option value="21">RO</option>
+    <option value="22">RR</option>
+    <option value="23">RS</option>
+    <option value="24">SC</option>
+    <option value="25">SE</option>
+    <option value="26">SP</option>
+    <option value="27">TO</option>
+    </select>        </p>
+            <p>
+                <label for="AlunoUniversidade">IES</label>
+                <select id="AlunoUniversidade" name="Aluno[universidades_id]" class="select-contato">
+                    <option value="">Selecione uma IES</option>
+                </select>
+            </p>
+            <p id="curso-container" style="">
+                <label for="AlunoCurso">Curso</label>
+                <select id="AlunoCurso" name="Aluno[cursos_id_novo]" class="select-contato">
+                    <option value="">Selecione um curso</option>
+                </select>
+            </p>
+            <p id="curso-area-container" style="">
+                <label for="AlunoNomeCursoArea">Você classificaria seu curso de graduação como pertencendo a qual das áreas apresentadas abaixo:</label>
+                <select id="cursos_area_id" class="select-contato" name="Aluno[cursos_area_id]">
+    <option value="">Selecione sua Área de Conhecimento</option>
+    <option value="2">Acústica</option>
+    <option value="3">Administração</option>
+    <option value="4">Administração da produção industrial</option>
+    <option value="5">Administração de agronegócios</option>
+    <option value="6">Administração de cooperativas</option>
+    <option value="7">Administração de redes</option>
+    <option value="8">Administração de sistemas de informações</option>
+    <option value="9">Administração dos serviços de saúde</option>
+    <option value="10">Administração educacional</option>
+    <option value="11">Administração em comércio exterior</option>
+    <option value="12">Administração em marketing</option>
+    <option value="13">Administração em micro e pequenas empresas</option>
+    <option value="14">Administração em prestação de serviços</option>
+    <option value="15">Administração em turismo</option>
+    <option value="16">Administração hospitalar</option>
+    <option value="17">Administração hoteleira</option>
+    <option value="18">Administração pública</option>
+    <option value="19">Administração rural</option>
+    <option value="20">Agrimensura </option>
+    <option value="21">Agroecologia</option>
+    <option value="22">Agroindústria </option>
+    <option value="23">Agronomia</option>
+    <option value="24">Agropecuária</option>
+    <option value="25">Antropologia social</option>
+    <option value="26">Análise de sistemas</option>
+    <option value="27">Análises toxicológicas</option>
+    <option value="28">Aqüicultura</option>
+    <option value="29">Arqueologia</option>
+    <option value="30">Arquitetura e urbanismo</option>
+    <option value="31">Arquivologia</option>
+    <option value="32">Artes </option>
+    <option value="33">Artes cênicas</option>
+    <option value="34">Artes e mídia </option>
+    <option value="35">Artes gráficas</option>
+    <option value="36">Artes plásticas</option>
+    <option value="37">Artes visuais</option>
+    <option value="38">Astronomia</option>
+    <option value="39">Audiovisuais</option>
+    <option value="40">Automação industrial</option>
+    <option value="41">Aviação</option>
+    <option value="42">Banco de dados</option>
+    <option value="43">Belas artes</option>
+    <option value="44">Biblioteconomia</option>
+    <option value="45">Biologia molecular</option>
+    <option value="46">Biomedicina</option>
+    <option value="47">Bioquímica industrial</option>
+    <option value="48">Cenografia</option>
+    <option value="49">Cerâmica (industrial)</option>
+    <option value="50">Cinema e animação</option>
+    <option value="51">Cinema e vídeo</option>
+    <option value="52">Ciência aeronáutica</option>
+    <option value="53">Ciência atuarial</option>
+    <option value="54">Ciência da computação</option>
+    <option value="55">Ciência da educação</option>
+    <option value="56">Ciência da informação</option>
+    <option value="57">Ciência da terra</option>
+    <option value="58">Ciência militar</option>
+    <option value="59">Ciência médica</option>
+    <option value="60">Ciência política</option>
+    <option value="61">Ciências </option>
+    <option value="62">CIÊNCIAS AGRÁRIAS - AGRONOMIA</option>
+    <option value="63">CIÊNCIAS AGRÁRIAS - CIÊNCIA E TECNOLOGIA DE ALIMENTOS</option>
+    <option value="64">CIÊNCIAS AGRÁRIAS - ENGENHARIA AGRÍCOLA</option>
+    <option value="65">CIÊNCIAS AGRÁRIAS - MEDICINA VETERINÁRIA</option>
+    <option value="66">CIÊNCIAS AGRÁRIAS - RECURSOS FLORESTAIS E ENGENHARIA FLORESTAL</option>
+    <option value="67">CIÊNCIAS AGRÁRIAS - RECURSOS PESQUEIROS E ENGENHARIA DE PESCA</option>
+    <option value="68">CIÊNCIAS AGRÁRIAS - ZOOTECNIA</option>
+    <option value="69">Ciências ambientais</option>
+    <option value="70">CIÊNCIAS BIOLÓGICAS - BIOFÍSICA</option>
+    <option value="71">CIÊNCIAS BIOLÓGICAS - BIOLOGIA GERAL</option>
+    <option value="72">CIÊNCIAS BIOLÓGICAS - BIOQUÍMICA</option>
+    <option value="73">CIÊNCIAS BIOLÓGICAS - BOTÂNICA</option>
+    <option value="74">CIÊNCIAS BIOLÓGICAS - ECOLOGIA</option>
+    <option value="75">CIÊNCIAS BIOLÓGICAS - FARMACOLOGIA</option>
+    <option value="76">CIÊNCIAS BIOLÓGICAS - FISIOLOGIA</option>
+    <option value="77">CIÊNCIAS BIOLÓGICAS - GENÉTICA</option>
+    <option value="78">CIÊNCIAS BIOLÓGICAS - IMUNOLOGIA</option>
+    <option value="79">CIÊNCIAS BIOLÓGICAS - MICROBIOLOGIA</option>
+    <option value="80">CIÊNCIAS BIOLÓGICAS - MORFOLOGIA</option>
+    <option value="81">CIÊNCIAS BIOLÓGICAS - PARASITOLOGIA</option>
+    <option value="82">CIÊNCIAS BIOLÓGICAS - ZOOLOGIA</option>
+    <option value="83">Ciências biológicas </option>
+    <option value="84">Ciências contábeis</option>
+    <option value="85">CIÊNCIAS DA SAÚDE - EDUCAÇÃO FÍSICA</option>
+    <option value="86">CIÊNCIAS DA SAÚDE - ENFERMAGEM</option>
+    <option value="87">CIÊNCIAS DA SAÚDE - FARMÁCIA</option>
+    <option value="88">CIÊNCIAS DA SAÚDE - FISIOTERAPIA E TERAPIA OCUPACIONAL</option>
+    <option value="89">CIÊNCIAS DA SAÚDE - FONOAUDIOLOGIA</option>
+    <option value="90">CIÊNCIAS DA SAÚDE - MEDICINA</option>
+    <option value="91">CIÊNCIAS DA SAÚDE - NUTRIÇÃO</option>
+    <option value="92">CIÊNCIAS DA SAÚDE - ODONTOLOGIA</option>
+    <option value="93">CIÊNCIAS DA SAÚDE - SAÚDE COLETIVA</option>
+    <option value="94">CIÊNCIAS EXATAS E DA TERRA - ASTRONOMIA</option>
+    <option value="95">CIÊNCIAS EXATAS E DA TERRA - CIÊNCIA DA COMPUTAÇÃO</option>
+    <option value="96">CIÊNCIAS EXATAS E DA TERRA - FÍSICA</option>
+    <option value="97">CIÊNCIAS EXATAS E DA TERRA - GEOCIÊNCIAS</option>
+    <option value="98">CIÊNCIAS EXATAS E DA TERRA - MATEMÁTICA</option>
+    <option value="99">CIÊNCIAS EXATAS E DA TERRA - OCEANOGRAFIA</option>
+    <option value="100">CIÊNCIAS EXATAS E DA TERRA - PROBABILIDADE E ESTATÍSTICA</option>
+    <option value="101">CIÊNCIAS EXATAS E DA TERRA - QUÍMICA</option>
+    <option value="102">Ciências físicas </option>
+    <option value="103">CIÊNCIAS HUMANAS - ANTROPOLOGIA</option>
+    <option value="104">CIÊNCIAS HUMANAS - ARQUEOLOGIA</option>
+    <option value="105">CIÊNCIAS HUMANAS - CIÊNCIA POLÍTICA</option>
+    <option value="106">CIÊNCIAS HUMANAS - EDUCAÇÃO</option>
+    <option value="107">CIÊNCIAS HUMANAS - FILOSOFIA</option>
+    <option value="108">CIÊNCIAS HUMANAS - GEOGRAFIA</option>
+    <option value="109">CIÊNCIAS HUMANAS - HISTÓRIA</option>
+    <option value="110">CIÊNCIAS HUMANAS - PSICOLOGIA</option>
+    <option value="111">CIÊNCIAS HUMANAS - SOCIOLOGIA</option>
+    <option value="112">CIÊNCIAS HUMANAS - TEOLOGIA</option>
+    <option value="113">Ciências sociais</option>
+    <option value="114">CIÊNCIAS SOCIAIS APLICADAS - ADMINISTRAÇÃO</option>
+    <option value="115">CIÊNCIAS SOCIAIS APLICADAS - ARQUITETURA E URBANISMO</option>
+    <option value="116">CIÊNCIAS SOCIAIS APLICADAS - CIÊNCIA DA INFORMAÇÃO</option>
+    <option value="117">CIÊNCIAS SOCIAIS APLICADAS - COMUNICAÇÃO</option>
+    <option value="118">CIÊNCIAS SOCIAIS APLICADAS - DEMOGRAFIA</option>
+    <option value="119">CIÊNCIAS SOCIAIS APLICADAS - DESENHO INDUSTRIAL</option>
+    <option value="120">CIÊNCIAS SOCIAIS APLICADAS - DIREITO</option>
+    <option value="121">CIÊNCIAS SOCIAIS APLICADAS - ECONOMIA</option>
+    <option value="122">CIÊNCIAS SOCIAIS APLICADAS - ECONOMIA DOMÉSTICA</option>
+    <option value="123">CIÊNCIAS SOCIAIS APLICADAS - MUSEOLOGIA</option>
+    <option value="124">CIÊNCIAS SOCIAIS APLICADAS - PLANEJAMENTO URBANO E REGIONAL</option>
+    <option value="125">CIÊNCIAS SOCIAIS APLICADAS - SERVIÇO SOCIAL</option>
+    <option value="126">CIÊNCIAS SOCIAIS APLICADAS - TURISMO</option>
+    <option value="127">Competências gerenciais</option>
+    <option value="128">Compra e venda</option>
+    <option value="129">Computação gráfica</option>
+    <option value="130">Comunicação assistiva</option>
+    <option value="131">Comunicação social (redação e conteúdo)</option>
+    <option value="132">Conservação e restauro de material cultural </option>
+    <option value="133">Construção civil</option>
+    <option value="134">Construção de edificações</option>
+    <option value="135">Construção de estradas</option>
+    <option value="136">Construção naval</option>
+    <option value="137">Contabilidade</option>
+    <option value="138">Contabilidade e custos</option>
+    <option value="139">Criação gráfica</option>
+    <option value="140">Dança (arte)</option>
+    <option value="141">Decoração de interiores</option>
+    <option value="142">Desenho de moda</option>
+    <option value="143">Desenho industrial (artístico)</option>
+    <option value="144">Design </option>
+    <option value="145">Design de interiores</option>
+    <option value="146">Direito</option>
+    <option value="147">Distribuição de energia elétrica</option>
+    <option value="148">Ecologia</option>
+    <option value="149">Economia</option>
+    <option value="150">Economia doméstica</option>
+    <option value="151">Educação física </option>
+    <option value="152">Educação organizacional</option>
+    <option value="153">Empreendedorismo</option>
+    <option value="154">Enfermagem</option>
+    <option value="155">Engenharia</option>
+    <option value="156">Engenharia aeroespacial</option>
+    <option value="157">Engenharia aeronáutica</option>
+    <option value="158">Engenharia agrícola</option>
+    <option value="159">Engenharia ambiental</option>
+    <option value="160">Engenharia automotiva</option>
+    <option value="161">Engenharia Biomédica</option>
+    <option value="162">Engenharia bioquímica</option>
+    <option value="163">Engenharia cartográfica</option>
+    <option value="164">Engenharia civil</option>
+    <option value="165">Engenharia de alimentos</option>
+    <option value="166">Engenharia de computação</option>
+    <option value="167">Engenharia de controle e automação</option>
+    <option value="168">Engenharia de materiais</option>
+    <option value="169">Engenharia de minas</option>
+    <option value="170">Engenharia de pesca</option>
+    <option value="171">Engenharia de petróleo</option>
+    <option value="172">Engenharia de produção</option>
+    <option value="173">Engenharia de produção de materiais</option>
+    <option value="174">Engenharia de recursos hídricos</option>
+    <option value="175">Engenharia de redes de comunicação</option>
+    <option value="176">Engenharia de telecomunicações</option>
+    <option value="177">Engenharia eletrotécnica</option>
+    <option value="178">Engenharia eletrônica</option>
+    <option value="179">Engenharia elétrica</option>
+    <option value="180">Engenharia florestal</option>
+    <option value="181">Engenharia física</option>
+    <option value="182">Engenharia geológica</option>
+    <option value="183">Engenharia industrial</option>
+    <option value="184">Engenharia industrial elétrica</option>
+    <option value="185">Engenharia industrial mecânica</option>
+    <option value="186">Engenharia industrial química</option>
+    <option value="187">Engenharia mecatrônica </option>
+    <option value="188">Engenharia mecânica</option>
+    <option value="189">Engenharia metalúrgica</option>
+    <option value="190">Engenharia naval </option>
+    <option value="191">Engenharia nuclear</option>
+    <option value="192">Engenharia química</option>
+    <option value="193">Engenharia sanitária</option>
+    <option value="194">Engenharia têxtil</option>
+    <option value="195">ENGENHARIAS - ENGENHARIA AEROESPACIAL</option>
+    <option value="196">ENGENHARIAS - ENGENHARIA BIOMÉDICA</option>
+    <option value="197">ENGENHARIAS - ENGENHARIA CIVIL</option>
+    <option value="198">ENGENHARIAS - ENGENHARIA DE MATERIAIS E METALÚRGICA</option>
+    <option value="199">ENGENHARIAS - ENGENHARIA DE MINAS</option>
+    <option value="200">ENGENHARIAS - ENGENHARIA DE PRODUÇÃO</option>
+    <option value="201">ENGENHARIAS - ENGENHARIA DE TRANSPORTES</option>
+    <option value="202">ENGENHARIAS - ENGENHARIA ELÉTRICA</option>
+    <option value="203">ENGENHARIAS - ENGENHARIA MECÂNICA</option>
+    <option value="204">ENGENHARIAS - ENGENHARIA NAVAL E OCEÂNICA</option>
+    <option value="205">ENGENHARIAS - ENGENHARIA NUCLEAR</option>
+    <option value="206">ENGENHARIAS - ENGENHARIA QUÍMICA</option>
+    <option value="207">ENGENHARIAS - ENGENHARIA SANITÁRIA</option>
+    <option value="208">Estatística</option>
+    <option value="209">Estilismo</option>
+    <option value="210">Estudos de energia</option>
+    <option value="211">Eventos</option>
+    <option value="212">Extração de petróleo e gás</option>
+    <option value="213">Fabricação de instrumentos musicais (não industrial)</option>
+    <option value="214">Fabricação de móveis</option>
+    <option value="215">Fabricação e processamento de papel</option>
+    <option value="216">Farmácia</option>
+    <option value="217">Farmácia de manipulação</option>
+    <option value="218">Farmácia industrial</option>
+    <option value="219">Filosofia</option>
+    <option value="220">Fisioterapia</option>
+    <option value="221">Fonoaudiologia</option>
+    <option value="222">Formação de executivos para instituições financeiras</option>
+    <option value="223">Formação de professor das séries finais do ensino fundamental</option>
+    <option value="224">Formação de professor das séries iniciais do ensino fundamental </option>
+    <option value="225">Formação de professor de antropologia</option>
+    <option value="226">Formação de professor de artes (educação artística)</option>
+    <option value="227">Formação de professor de artes plásticas</option>
+    <option value="228">Formação de professor de artes visuais</option>
+    <option value="229">Formação de professor de biologia</option>
+    <option value="230">Formação de professor de ciência política</option>
+    <option value="231">Formação de professor de ciências</option>
+    <option value="232">Formação de professor de computação (informática)</option>
+    <option value="233">Formação de professor de dança</option>
+    <option value="234">Formação de professor de desenho</option>
+    <option value="235">Formação de professor de disciplinas do setor primário (agricultura, pecuária, etc)</option>
+    <option value="236">Formação de professor de disciplinas profissionalizantes do ensino médio</option>
+    <option value="237">Formação de professor de educação artística para educação básica</option>
+    <option value="238">Formação de professor de educação física</option>
+    <option value="239">Formação de professor de educação religiosa</option>
+    <option value="240">Formação de professor de enfermagem</option>
+    <option value="241">Formação de professor de estatística</option>
+    <option value="242">Formação de professor de filosofia</option>
+    <option value="243">Formação de professor de física</option>
+    <option value="244">Formação de professor de geografia</option>
+    <option value="245">Formação de professor de geologia</option>
+    <option value="246">Formação de professor de história</option>
+    <option value="247">Formação de professor de letras </option>
+    <option value="248">Formação de professor de lingüística</option>
+    <option value="249">Formação de professor de língua/literatura estrangeira clássica</option>
+    <option value="250">Formação de professor de língua/literatura estrangeira moderna</option>
+    <option value="251">Formação de professor de língua/literatura vernácula (português)</option>
+    <option value="252">Formação de professor de língua/literatura vernácula e língua estrangeira moderna</option>
+    <option value="253">Formação de professor de matemática</option>
+    <option value="254">Formação de professor de música</option>
+    <option value="255">Formação de professor de química</option>
+    <option value="256">Formação de professor de sociologia</option>
+    <option value="257">Formação de professor de teatro (artes cênicas) </option>
+    <option value="258">Formação de professor do ensino fundamental</option>
+    <option value="259">Formação de professor do ensino médio</option>
+    <option value="260">Formação de professor em ciências sociais</option>
+    <option value="261">Formação de professor em segurança pública</option>
+    <option value="262">Formação de técnicos e treinadores esportivos</option>
+    <option value="263">Formação militar</option>
+    <option value="264">Fotografia</option>
+    <option value="265">Física</option>
+    <option value="266">Gastronomia</option>
+    <option value="267">Geofísica</option>
+    <option value="268">Geografia (natureza)</option>
+    <option value="269">Geologia</option>
+    <option value="270">Geoprocessamento</option>
+    <option value="271">Gestão ambiental</option>
+    <option value="272">Gestão da educação</option>
+    <option value="273">Gestão da informação</option>
+    <option value="274">Gestão da produção</option>
+    <option value="275">Gestão da segurança</option>
+    <option value="276">Gestão de comercio</option>
+    <option value="277">Gestão de empresas</option>
+    <option value="278">Gestão de imóveis</option>
+    <option value="279">Gestão de negócios</option>
+    <option value="280">Gestão de negócios internacionais</option>
+    <option value="281">Gestão de organizações</option>
+    <option value="282">Gestão de pessoal / recursos humanos </option>
+    <option value="283">Gestão de qualidade</option>
+    <option value="284">Gestão de recursos de informática</option>
+    <option value="285">Gestão de serviços</option>
+    <option value="286">Gestão de supermercados</option>
+    <option value="287">Gestão desportiva e de lazer</option>
+    <option value="288">Gestão estratégica de empresas</option>
+    <option value="289">Gestão financeira</option>
+    <option value="290">Gestão logística </option>
+    <option value="291">História</option>
+    <option value="292">Horticultura</option>
+    <option value="293">Hotelaria</option>
+    <option value="294">Humanidades  </option>
+    <option value="295">Indústria do vestuário</option>
+    <option value="296">Indústria têxtil</option>
+    <option value="297">Indústrias de laticínios (industriais)</option>
+    <option value="298">Jornalismo</option>
+    <option value="299">Letras</option>
+    <option value="300">Linguagem de sinais</option>
+    <option value="301">LINGÜÍSTICA, LETRAS E ARTES - ARTES</option>
+    <option value="302">LINGÜÍSTICA, LETRAS E ARTES - LETRAS</option>
+    <option value="303">LINGÜÍSTICA, LETRAS E ARTES - LINGÜÍSTICA</option>
+    <option value="304">Língua/literatura vernácula (português)</option>
+    <option value="305">Língua/literatura vernácula e línguas/literaturas estrangeiras modernas</option>
+    <option value="306">Línguas/literaturas estrangeiras modernas</option>
+    <option value="307">Manejo da produção agrícola</option>
+    <option value="308">Manejo da produção animal</option>
+    <option value="309">Manutenção aeronáutica</option>
+    <option value="310">Manutenção de aparelhos médico-hospitalares</option>
+    <option value="311">Manutenção industrial</option>
+    <option value="312">Marketing e propaganda</option>
+    <option value="313">Matemática</option>
+    <option value="314">Matemática aplicada</option>
+    <option value="315">Materiais de construção (produção e utilização)</option>
+    <option value="316">Mecânica de precisão</option>
+    <option value="317">Medicina</option>
+    <option value="318">Medicina veterinária</option>
+    <option value="319">Mercadologia (marketing)</option>
+    <option value="320">Meteorologia</option>
+    <option value="321">Moda</option>
+    <option value="322">MULTIDISCIPLINAR - BIOTECNOLOGIA</option>
+    <option value="323">MULTIDISCIPLINAR - CIÊNCIAS AMBIENTAIS</option>
+    <option value="324">MULTIDISCIPLINAR - ENSINO</option>
+    <option value="325">MULTIDISCIPLINAR - INTERDISCIPLINAR</option>
+    <option value="326">MULTIDISCIPLINAR - MATERIAIS</option>
+    <option value="327">Multimídia</option>
+    <option value="328">Museologia</option>
+    <option value="329">Música</option>
+    <option value="330">Naturologia</option>
+    <option value="331">Navegação fluvial</option>
+    <option value="332">Negócios e administração</option>
+    <option value="333">Negócios financeiros</option>
+    <option value="334">Negócios imobiliários</option>
+    <option value="335">Negócios internacionais</option>
+    <option value="336">Nutrição</option>
+    <option value="337">Oceanografia</option>
+    <option value="338">Odontologia</option>
+    <option value="339">Operação de canteiros de obras</option>
+    <option value="340">Optometria</option>
+    <option value="341">Paisagismo</option>
+    <option value="342">Pedagogia</option>
+    <option value="343">Planejamento e organização do turismo</option>
+    <option value="344">Polímeros</option>
+    <option value="345">Preparação de alimentos</option>
+    <option value="346">Processamento de carnes</option>
+    <option value="347">Produção cultural</option>
+    <option value="348">Produção de energia</option>
+    <option value="349">Produção de multimídia</option>
+    <option value="350">Produção de música gravada</option>
+    <option value="351">Produção de vinhos</option>
+    <option value="352">Produção gráfica</option>
+    <option value="353">Produção industrial</option>
+    <option value="354">Programação de computadores</option>
+    <option value="355">Projeto de produto</option>
+    <option value="356">Psicologia</option>
+    <option value="357">Publicidade e propaganda</option>
+    <option value="358">Quiroprática</option>
+    <option value="359">Química</option>
+    <option value="360">Química de biotecnologia</option>
+    <option value="361">Química industrial</option>
+    <option value="362">Química orgânica</option>
+    <option value="363">Radialismo</option>
+    <option value="364">Redação criativa / expressão escrita</option>
+    <option value="365">Redes de computadores</option>
+    <option value="366">Refrigeração / aquecimento</option>
+    <option value="367">Regência (musical)</option>
+    <option value="368">Relações internacionais</option>
+    <option value="369">Relações públicas</option>
+    <option value="370">Rádio e tele-jornalismo</option>
+    <option value="371">Saneamento ambiental</option>
+    <option value="372">Saúde (programas ou cursos gerais)</option>
+    <option value="373">Saúde e segurança no trabalho</option>
+    <option value="374">Secretariado </option>
+    <option value="375">Secretariado executivo</option>
+    <option value="376">Segurança da informação</option>
+    <option value="377">Segurança pública</option>
+    <option value="378">Seguros</option>
+    <option value="379">Sensoriamento remoto</option>
+    <option value="380">Serviço aeroportuário</option>
+    <option value="381">Serviço portuário</option>
+    <option value="382">Serviço social</option>
+    <option value="383">Silvicultura</option>
+    <option value="384">Sistemas de comunicação</option>
+    <option value="385">Sistemas de informação</option>
+    <option value="386">Sociologia</option>
+    <option value="387">Som e imagem</option>
+    <option value="388">Teatro</option>
+    <option value="389">Tecnologia aeroespacial</option>
+    <option value="390">Tecnologia da informação</option>
+    <option value="391">Tecnologia da produção pesqueira</option>
+    <option value="392">Tecnologia de alimentos</option>
+    <option value="393">Tecnologia de edificação</option>
+    <option value="394">Tecnologia de madeira</option>
+    <option value="395">Tecnologia de materiais</option>
+    <option value="396">Tecnologia de mineração</option>
+    <option value="397">Tecnologia de radiologia</option>
+    <option value="398">Tecnologia digital</option>
+    <option value="399">Tecnologia eletrônica</option>
+    <option value="400">Tecnologia em agronegócio</option>
+    <option value="401">Tecnologia em açúcar e álcool</option>
+    <option value="402">Tecnologia em cafeicultura</option>
+    <option value="403">Tecnologia em desenvolvimento de softwares</option>
+    <option value="404">Tecnologia em eletrotécnica</option>
+    <option value="405">Tecnologia em estradas </option>
+    <option value="406">Tecnologia em gestão de telecomunicações</option>
+    <option value="407">Tecnologia em informática</option>
+    <option value="408">Tecnologia em produção de grãos</option>
+    <option value="409">Tecnologia mecatrônica</option>
+    <option value="410">Tecnologia mecânica</option>
+    <option value="411">Tecnologia metalúrgica</option>
+    <option value="412">Tecnologia oftálmica</option>
+    <option value="413">Tecnologia química</option>
+    <option value="414">Telecomunicações</option>
+    <option value="415">Telemática</option>
+    <option value="416">Teologia</option>
+    <option value="417">Teoria e comportamento organizacional</option>
+    <option value="418">Terapia ocupacional</option>
+    <option value="419">Terapias da beleza</option>
+    <option value="420">Tradutor</option>
+    <option value="421">Tradutor e intérprete</option>
+    <option value="422">Transportes</option>
+    <option value="423">Tributação</option>
+    <option value="424">Turismo</option>
+    <option value="425">Técnicas de irrigação e drenagem</option>
+    <option value="426">Urbanismo</option>
+    <option value="427">Uso da internet</option>
+    <option value="428">Vendas em varejo</option>
+    <option value="429">Zootecnia </option>
+    <option value="430">Administração bancária</option>
+    <option value="431">Administração de empresas</option>
+    <option value="432">Administração de eventos</option>
+    <option value="433">Administração de materiais</option>
+    <option value="434">Administração de recursos humanos</option>
+    <option value="435">Administração de transportes</option>
+    <option value="436">Administração financeira</option>
+    <option value="437">Agrimensura</option>
+    <option value="438">Agroindústria</option>
+    <option value="439">Arquitetura</option>
+    <option value="440">Artes</option>
+    <option value="441">Artes e mídia</option>
+    <option value="442">Atenção a deficientes e incapacitados</option>
+    <option value="443">Atenção primária a idosos</option>
+    <option value="444">Auditoria</option>
+    <option value="445">Automação</option>
+    <option value="446">Bancos e finanças</option>
+    <option value="447">Biologia ambiental</option>
+    <option value="448">Ciência dentária</option>
+    <option value="449">Ciências</option>
+    <option value="450">Ciências comportamentais</option>
+    <option value="451">Ciências domésticas</option>
+    <option value="452">Ciências físicas</option>
+    <option value="453">Ciências veterinárias</option>
+    <option value="454">Composição e regência</option>
+    <option value="455">Composição gráfica informatizada</option>
+    <option value="456">Comunicação visual</option>
+    <option value="457">Conservação da natureza</option>
+    <option value="458">Conservação e manejo da terra</option>
+    <option value="459">Conservação e restauro de material cultural</option>
+    <option value="460">Conservação/proteção ambiental</option>
+    <option value="461">Controle de qualidade (técnico)</option>
+    <option value="462">Cosmetologia</option>
+    <option value="463">Criação de animais</option>
+    <option value="464">Criminologia</option>
+    <option value="465">Culturas regionais</option>
+    <option value="466">Dermatologia</option>
+    <option value="467">Desenho arquitetônico</option>
+    <option value="468">Desenho e plástica</option>
+    <option value="469">Desenho industrial</option>
+    <option value="470">Desenvolvimento comunitário</option>
+    <option value="471">Desenvolvimento rural</option>
+    <option value="472">Design</option>
+    <option value="473">Direito comercial</option>
+    <option value="474">Direito do trabalho</option>
+    <option value="475">Direito internacional / comércio exterior</option>
+    <option value="476">Direção teatral</option>
+    <option value="477">Editoração</option>
+    <option value="478">Educação artística</option>
+    <option value="479">Educação de jovens e adultos</option>
+    <option value="480">Educação e comunicação</option>
+    <option value="481">Educação física</option>
+    <option value="482">Educação infantil</option>
+    <option value="483">Enfermagem básica</option>
+    <option value="484">Enfermagem de saúde pública</option>
+    <option value="485">Enfermagem e obstetrícia</option>
+    <option value="486">Enfermagem gerontológica</option>
+    <option value="487">Engenharia de biotecnologia</option>
+    <option value="488">Engenharia de comunicações</option>
+    <option value="489">Engenharia de softwares</option>
+    <option value="490">Engenharia mecatrônica</option>
+    <option value="491">Engenharia naval</option>
+    <option value="492">Esportes</option>
+    <option value="493">Estudos culturais</option>
+    <option value="494">Estudos religiosos</option>
+    <option value="495">Estudos urbanos</option>
+    <option value="496">Estética</option>
+    <option value="497">Farmacologia</option>
+    <option value="498">Finanças, bancos, seguros</option>
+    <option value="499">Fisiologia</option>
+    <option value="500">Formação de professor das séries iniciais do ensino fundamental</option>
+    <option value="501">Formação de professor de letras</option>
+    <option value="502">Formação de professor de matérias pedagógicas</option>
+    <option value="503">Formação de professor de teatro (artes cênicas)</option>
+    <option value="504">Formação de professor para a educação básica</option>
+    <option value="505">Formação de árbitros e outras autoridades esportivas</option>
+    <option value="506">Fruticultura</option>
+    <option value="507">Fundição de metais e fabricação de formas</option>
+    <option value="508">Geografia</option>
+    <option value="509">Geografia cultural</option>
+    <option value="510">Gerontologia</option>
+    <option value="511">Gestão da produção de vestuário</option>
+    <option value="512">Gestão de cidades</option>
+    <option value="513">Gestão de inovação</option>
+    <option value="514">Gestão de pessoal / recursos humanos</option>
+    <option value="515">Gestão logística</option>
+    <option value="516">História da  cultura</option>
+    <option value="517">História do cinema</option>
+    <option value="518">Humanidades</option>
+    <option value="519">Informática educacional</option>
+    <option value="520">Infra-estrutura aeronáutica</option>
+    <option value="521">Instalações elétricas</option>
+    <option value="522">Instrumento (música)</option>
+    <option value="523">Legislação trabalhista</option>
+    <option value="524">Linguagens de programação (visual basic, c++ etc)</option>
+    <option value="525">Lingüística (línguas)</option>
+    <option value="526">Literatura</option>
+    <option value="527">Línguas mortas/clássicas</option>
+    <option value="528">Línguas nativas</option>
+    <option value="529">Macro economia</option>
+    <option value="530">Manejo de eqüinos</option>
+    <option value="531">Manutenção de equipamentos eletrônicos</option>
+    <option value="532">Manutenção mecânica</option>
+    <option value="533">Matemática computacional (informática)</option>
+    <option value="534">Mecânica de máquinas agrícolas</option>
+    <option value="535">Mecânica de veículos</option>
+    <option value="536">Medicina geral</option>
+    <option value="537">Medicina naturopática</option>
+    <option value="538">Medicina preventiva e social</option>
+    <option value="539">Microbiologia</option>
+    <option value="540">Normal superior</option>
+    <option value="541">Oratória e retórica (língua vernácula)</option>
+    <option value="542">Orientação educacional</option>
+    <option value="543">Pesquisa de mercado</option>
+    <option value="544">Pesquisa educacional</option>
+    <option value="545">Planejamento urbano e regional</option>
+    <option value="546">Política</option>
+    <option value="547">Política social</option>
+    <option value="548">Processamento de alimentos e bebidas</option>
+    <option value="549">Processamento de dados</option>
+    <option value="550">Produção cinematográfica</option>
+    <option value="551">Produção de jóias</option>
+    <option value="552">Produção de rádio e tv</option>
+    <option value="553">Projetos de pesquisas (survey design)</option>
+    <option value="554">Proteção contra o fogo e combate a incêndios</option>
+    <option value="555">Prática social</option>
+    <option value="556">Próteses ortopédicas</option>
+    <option value="557">Psicopedagogia</option>
+    <option value="558">Recreação infantil</option>
+    <option value="559">Revisão de textos</option>
+    <option value="560">Robótica</option>
+    <option value="561">Saúde pública</option>
+    <option value="562">Secretariado</option>
+    <option value="563">Secretariado executivo bilíngüe</option>
+    <option value="564">Secretariado executivo trilíngüe</option>
+    <option value="565">Secretariado na área educacional</option>
+    <option value="566">Serviços de saúde mental</option>
+    <option value="567">Sistemas operacionais</option>
+    <option value="568">Softwares básicos</option>
+    <option value="569">Softwares para computação gráfica</option>
+    <option value="570">Softwares para editoração e publicação</option>
+    <option value="571">Softwares para planilhas de cálculo (spreadsheets)</option>
+    <option value="572">Softwares para processamento de dados</option>
+    <option value="573">Soldagem</option>
+    <option value="574">Tecnologia ambiental</option>
+    <option value="575">Tecnologia em eletromecânica</option>
+    <option value="576">Tecnologia em estradas</option>
+    <option value="577">Tecnologia em rochas ornamentais</option>
+    <option value="578">Tecnologias paramédicas de emergência</option>
+    <option value="579">Treinamento e desenvolvimento de recursos humanos</option>
+    <option value="580">Treinamento físico (esportes)</option>
+    <option value="581">Turismo e hotelaria</option>
+    <option value="582">Vendas pela internet</option>
+    <option value="583">Viagens e turismo</option>
+    <option value="584">Zootecnia</option>
+    </select>        </p>
+    <!--        <p class="termo">Aluno de Graduação</p>
+            <p class="termo">Para ingressar no curso MEO, você deverá apresentar uma pontuação igual ou superior à 600 pontos no exame do ENEM. As informações preenchidas serão verificadas, e caso não sejam verdadeiras, o seu acesso poderá ser definitivamente bloqueado, conforme as condições apresentadas no termo de uso.</p>-->
+            <p class="termo">
+                <input id="AlunoVerificado" value="1" type="checkbox" name="Aluno[verificado]" />            Declaro que todas as informações preenchidas neste formulário são verídicas e estou ciente de que as mesmas serão verificadas, podendo acarretar nas penalidades previstas no termo de compromisso e na legislação vigente, dentre elas ter minha inscrição cancelada a qualquer momento e ser responsabilizado em âmbito administrativo, cível e/ou criminal. </p>
+            <br />
+            <br />
+            <p align="center">
+                <input id="btn-cadastrar" type="submit" value="CADASTRAR" class="senha bt button-mostarda enviar" />
+                <img src="/images/loading.gif" id="img-loading" style="display:none;" alt="Carregando..." />
+            </p>
+        </form>
+    </body>
+</html>
