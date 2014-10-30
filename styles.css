@@ -156,3 +156,11 @@ input:required, textarea:required {
 .contact_form input:required:valid + .form_hint::before {
 color:#28921f;
 } /* change form hint arrow color when valid */
+
+.idioma {
+//background-image:url("caminho-da-imagem");
+}
+#pt-br {
+	background-image:url("C:\Users\capes\Desktop\Project_of_English-master\2000px-Flag_of_Brazil.svg.png");
+}
+
